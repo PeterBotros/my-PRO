@@ -1,6 +1,24 @@
 h1 {
-  color: #001570;
+  color: #ffffff;
 }
 body {
-  background-color: aquamarine;
+  background-color: rgb(47, 45, 77);
+}
+p {
+  color: #ffffff;
+  display: block;
+  font-style: oblique;
+  font-size: x-large;
+  margin-block-start: 5em;
+  margin-block-end: 5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+ol {
+  color: #ffffff;
+  font-style: oblique;
+}
+ul {
+  color: #ffffff;
+  font-style: oblique;
 }
