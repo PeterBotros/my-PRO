@@ -9,10 +9,6 @@ p {
   display: block;
   font-style: oblique;
   font-size: x-large;
-  margin-block-start: 5em;
-  margin-block-end: 5em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 ol {
   color: #ffffff;
@@ -21,4 +17,13 @@ ol {
 ul {
   color: #ffffff;
   font-style: oblique;
+}
+div.romantic {
+  background: red;
+}
+div.tragedy {
+  background: rgb(255, 0, 119);
+}
+div.detective {
+  background: rgb(81, 255, 0);
 }
