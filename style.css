@@ -2,13 +2,29 @@ h1 {
   color: #ffffff;
 }
 body {
-  background-color: rgb(47, 45, 77);
+  background-color: #434354;
 }
-p {
+.my-p {
   color: #ffffff;
   display: block;
   font-style: oblique;
   font-size: x-large;
+  background-image: url("verse.jpeg");
+  background-repeat: repeat;
+  /* background-attachment: fixed;
+  background-size: 10%;
+  background-position: right; */
+}
+#my-p1 {
+  color: #ffffff;
+  display: block;
+  font-style: oblique;
+  font-size: x-large;
+  background-image: url("verse.jpeg");
+  background-repeat: no-repeat;
+}
+figure {
+  padding: center;
 }
 ol {
   color: #ffffff;
@@ -19,11 +35,15 @@ ul {
   font-style: oblique;
 }
 div.romantic {
-  background: red;
+  background: rgba(186, 59, 255, 0.597);
 }
 div.tragedy {
-  background: rgb(255, 0, 119);
+  background: rgb(255, 202, 123);
 }
 div.detective {
-  background: rgb(81, 255, 0);
+  background: rgb(59, 188, 178);
 }
+header {
+  color: #ffffff;
+}
+
