@@ -1,0 +1,462 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: large;
+  display: inline-block;
+  background-color: #434354;
+  border-radius: 10px;
+  border: #ffffff;
+  padding: 10px;
+  margin: 100px;
+  /* width: 70%; */
+  text-align: center;
+}
+h1 {
+  color: #ffffff;
+  font-weight:bold;
+}
+table {
+  background-color: #63bcbe;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 50%;
+  border-spacing: 20px;
+}
+table td{
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+table thead td {
+  background-color: #ffc400;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+.i {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 100px;
+  background-color: #63bcbe;
+  text-align: left;
+  width: 350px;
+  display: block;
+  overflow:hidden;
+  float: right;
+
+}
+.my-p {
+  color: #00fbff;
+  display: block;
+  /* font-style: oblique; */
+  background-image: url("verse.jpeg");
+  /* background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 10% 10%;
+  background-position: right; */
+
+  /* top right bottom left */
+  padding: 10%;
+  width: 70%;
+  margin: auto;
+  border: 10px solid rgb(0, 255, 200);
+  border-radius: 10px;
+  text-align: center;
+
+}
+#my-p1 {
+  color: #ffffff;
+  /* display: block; */
+  background-image: url("verse.jpeg");
+  background-repeat: repeat;
+  display: inline-block;
+  width: fit-content;
+  margin: 20px;
+  border-radius: 5px;
+  height: 100px;
+  overflow: auto;
+  text-align: center;
+  
+  /* outline-style: ; */
+  padding: 10px;
+}
+figure {
+  padding: 10px;
+  margin: 20px;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  font-size: x-large;
+  background-color: #68c1c3;
+  border: 10px;
+  border-radius: 10px;
+  border-color: #00fbff;
+}
+ol {
+  color: #ffffff;
+  font-style: oblique;
+  display: block;
+  list-style-position: inside;
+
+}
+ul {
+  color: #ffffff;
+  font-style: oblique;
+  display: block;
+  list-style-position: inside;
+}
+.po {
+  color: #ffffff;
+  background-color: #3c925a;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px ;
+  /* width: 70%; */
+  /* display: inline; */
+  /* display: block; */
+  /* display: none; */
+  display: inline-block;
+  width: 23.75;
+  margin-left: 1%;
+  /* float: left; */
+}
+.parent {
+  width: 500px;
+  height: 300px;
+  background-color: #63bcbe;
+  position: relative;
+}
+.oneo {
+  background-color: #ff6fca;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.threet {
+  position: sticky;
+  background-color: #00fbff;
+  top: 0;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  z-index: 10;
+}
+.parent2 {
+  width: 500px;
+  height: 300px;
+  background-color: #63bcbe;
+  position: relative;
+  margin: 10px;
+}
+.oneone {
+  background-color: #ffc400;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  z-index: 3;
+}
+.twotwo {
+  background-color: #6dab7b;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  margin: 10px;
+  left: 20px;
+  top: 10px;
+}
+.threethree {
+  background-color: #ff6fca;
+  padding: 10px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 10px;
+}
+div.romantic {
+  background-color: rgba(156, 27, 199, 0.597);
+  border-radius: 10px;
+  border: 100px;
+  padding: 10px;
+  /* width: 70%;
+  margin: auto; */
+  margin: 20px;
+}
+div.tragedy {
+  background: rgb(255, 202, 123);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+div.detective {
+  background: rgb(59, 188, 178);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  /* visibility: hidden; */
+}
+header {
+  /* color: #ffffff; */
+  margin: 10px;
+  padding: 10px;
+}
+nav {
+  /* color: #ffffff; */
+  margin: 10px;
+  padding: 10px;
+}
+aside {
+  /* color: #ffffff; */
+  margin: 10px;
+  padding: 10px;
+}
+footer {
+  /* color: #ffffff; */
+  margin: 10px;
+  padding: 10px;
+}
+
+/* the display are block, inline, inline block */
+
+span {
+  color: #ffffff;
+  background-color: #3c925a;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px ;
+  /* width: 70%; */
+  /* display: inline; */
+  /* display: block; */
+  /* display: none; */
+  display: inline-block;
+}
+
+button {
+  color: #fffefe;
+  background-color: #4baaa2;
+  border-radius: inherit;
+  padding: 5px;
+  width: 50px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+}
+embed {
+  border-radius: 10px;
+  margin: 10px;
+}
+video {
+  border-radius: 10px;
+  margin: 10px;
+}
+.oneo::first-letter {
+  color: #000;
+}
+.one {
+  padding: 10px;
+  margin: 10px;
+  border-bottom:2px solid red;
+  color: #ffffff;
+  background-color: #6242a8;
+  border-radius: inherit;
+
+}
+.two {
+  padding: 10px;
+  margin: 10px;
+  border-bottom:2px solid red;
+  color: #ffffff;
+  background-color: #42a85a;
+  border-radius: inherit;
+}
+.three {
+  padding: 10px;
+  margin: 10px;
+  border-bottom:2px solid red;
+  color: #ffffff;
+  background-color: #ffc400;
+  border-radius: inherit;
+}
+.four {
+  padding: 10px;
+  margin: 10px;
+  border-bottom:2px solid red;
+  color: #ffffff;
+  background-color: #ff6fca;
+  border-radius: inherit;
+}
+a {
+  color: #fffefe;
+  text-align: center;
+  font-size: xx-large;
+  text-transform: uppercase;
+  display: block;
+  padding: 10px;
+  background-color: #6dab7b;
+  width:fit-content ;
+  margin: 10px;
+  border-radius: 20px ;
+  text-decoration: none;
+}
+/* a:hover {
+  color: #000;
+} */
+/* a:focus {
+  color: #000;
+} */
+a:visited {
+  color: #2200ff;
+}
+::selection {
+  color: yellow;
+  background-color: #474747;
+}
+.father {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.une {
+  background-color: #6f6f6f;
+  padding: 10px;
+  width: 1000px;
+  float: left;
+  position: relative;
+  margin: 10px;
+}
+.une2 {
+  background-color: #6f6f6f;
+  padding: 10px;
+  width: 1000px;
+  float: left;
+  position: relative;
+  margin: 10px;
+}
+.due {
+  background-color: #6f6f6f;
+  padding: 10px;
+  width: 1000px;
+  float: left;
+  position: relative;
+  margin: 10px;
+}
+.trois {
+  background-color: #6f6f6f;
+  padding: 10px;
+  width: 1000px;
+  float: left;
+  position: relative;
+  margin: 10px;
+}
+.child {
+  background-color: #6f6f6f;
+  width: 50px;
+  margin-right: 20px;
+  padding: 10px;
+  height: 65.5px;
+  float: left;
+  font-size: 50px;
+  text-align: center;
+}
+input {
+  padding: 5px;
+  width: 200px;
+  border: #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+textarea {
+  background-color: #ffffff;
+  /* border: #00fbff; */
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* .une .pipline {
+  position: absolute;
+  width: 10px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #00fbff;
+  display: block;
+  border-radius: 0;
+  float: left;
+  right: -20px;
+  height: 100%;
+  top: 0;
+} */
+/* .due .pipline {
+  position: absolute;
+  width: 10px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #00fbff;
+  display: block;
+  border-radius: 0;
+  float: left;
+  right: -20px;
+  height: 100%;
+  top: 0;
+} */
+/* .trois .pipline {
+  position: absolute;
+  width: 10px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #00fbff;
+  display: block;
+  border-radius: 0;
+  float: left;
+  right: -20px;
+  height: 100%;
+  top: 0;
+} */
+/* .une2 .pipline {
+  content: "";
+  position: absolute;
+  width: 10px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #00fbff;
+  display: block;
+  border-radius: 0;
+  float: left;
+  right: -20px;
+  height: 100%;
+  top: 0;
+} */
+.father ::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #00fbff;
+  display: block;
+  border-radius: 0;
+  float: left;
+  right: -20px;
+  height: 100%;
+  top: 0;
+}
+.une::before{
+  content: "";
+  background-color: #ffffff00;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin-top: -15px;
+  top: 50%;
+  left: -30px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: transparent rgb(100, 234, 241) transparent transparent;
+  
+}
